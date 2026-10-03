@@ -1,45 +1,30 @@
-# 🏎️ Interactive mtcars Shiny Dashboard
+# mtcars Shiny Dashboard
 
-An interactive R Shiny web application for exploratory data analysis (EDA) on the classic `mtcars` dataset. This dashboard allows users to dynamically analyze distributions, categorical frequencies, and variable correlations.
+A simple R Shiny web application built to analyze the standard `mtcars` dataset. I created this dashboard to practice building interactive R apps, handling user inputs, and deploying Shiny projects online.
 
-## 🚀 Live Demo
-Experience the live interactive application hosted on shinyapps.io:  
-👉 **[Interactive mtcars Dashboard](https://70b283-mostafa-ezzeldin.shinyapps.io/mtcars_project/)**
+## Live Demo
 
----
+You can try the live app hosted on shinyapps.io here:  
+https://70b283-mostafa-ezzeldin.shinyapps.io/mtcars_project/
 
-## 📊 Features & Functional Modules
+## What the Dashboard Does
 
-### 1. Distribution of Numerical Variables
-- **Histogram Viewer**: Select any continuous variable (e.g., `mpg`, `hp`, `wt`) with customizable bin counts and color themes.
-- **Boxplot Visualization**: Examine data spread, medians, and potential outliers.
+The app divides the exploratory data analysis into three main sections:
 
-### 2. Distribution of Categorical Variables
-- **Bar Charts**: Analyze categorical distributions for variables like cylinders (`cyl`), transmission type (`am`), and gears (`gear`).
+1. **Numerical Variables**: Generates histograms and boxplots for continuous variables (like `mpg`, `hp`, `wt`). Includes options to adjust histogram bin counts and switch color fills.
+2. **Categorical Variables**: Shows simple bar charts for discrete metrics such as number of cylinders (`cyl`), transmission type (`am`), and gear count (`gear`).
+3. **Correlation Plots**: Displays scatter plots showing relationships between continuous variables and vehicle weight (`wt`), grouped by categorical variables.
 
-### 3. Data Correlation Analysis
-- **Scatter Plots**: Explore relationships between continuous metrics and vehicle weight (`wt`), color-coded by categorical dimensions.
+## Tech Stack & Packages
 
----
+- **R** & **Shiny** for the backend and dashboard interface.
+- **ggplot2** and **tidyverse** for plotting and data formatting.
+- **rsconnect** for publishing to shinyapps.io.
 
-## 🛠️ Built With
+## Running the App Locally
 
-- **[R Language](https://www.r-project.org/)**: Core programming language.
-- **[Shiny](https://shiny.posit.co/)**: Web application framework for R.
-- **[ggplot2 & tidyverse](https://www.tidyverse.org/)**: Data transformation and visualization.
-- **[rsconnect](https://cran.r-project.org/package=rsconnect)**: Deployment interface for shinyapps.io.
+If you want to run this project on your machine:
 
----
-
-## 💻 How to Run Locally
-Open ui.R or server.R in RStudio.
-
-Install required libraries if needed:
-install.packages(c("shiny", "tidyverse", "ggplot2", "rlang"))
-Click Run App in the top right corner of the RStudio editor.
-
-To run this application on your local machine using RStudio:
-
-1. Clone this repository:
+1. Clone the repo:
    ```bash
    git clone [https://github.com/Mostafaezzeldin2025/mtcars-shiny-dashboard.git](https://github.com/Mostafaezzeldin2025/mtcars-shiny-dashboard.git)
