@@ -27,4 +27,9 @@ If you want to run this project on your machine:
 
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/Mostafaezzeldin2025/mtcars-shiny-dashboard.git](https://github.com/Mostafaezzeldin2025/mtcars-shiny-dashboard.git)
+   git clone [https://github.com/Mostafaezzeldin2025/mtcars-shiny-dashboard.git](https://github.com/Mostafaezzeldin2025/mtcars-shiny-dashboard.git) 
+
+Open ui.R or server.R in RStudio.
+Make sure the required packages are installed:
+install.packages(c("shiny", "tidyverse", "ggplot2", "rlang"))
+Click Run App in RStudio.
