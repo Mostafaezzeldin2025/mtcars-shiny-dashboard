@@ -42,4 +42,4 @@ To run this application on your local machine using RStudio:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/mtcars-shiny-dashboard.git](https://github.com/YOUR-USERNAME/mtcars-shiny-dashboard.git)
+   git clone [https://github.com/Mostafaezzeldin2025/mtcars-shiny-dashboard.git](https://github.com/Mostafaezzeldin2025/mtcars-shiny-dashboard.git)
