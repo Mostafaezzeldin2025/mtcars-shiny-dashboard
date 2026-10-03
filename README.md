@@ -32,6 +32,11 @@ Experience the live interactive application hosted on shinyapps.io:
 ---
 
 ## 💻 How to Run Locally
+Open ui.R or server.R in RStudio.
+
+Install required libraries if needed:
+install.packages(c("shiny", "tidyverse", "ggplot2", "rlang"))
+Click Run App in the top right corner of the RStudio editor.
 
 To run this application on your local machine using RStudio:
 
